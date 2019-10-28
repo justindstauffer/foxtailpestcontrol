@@ -619,4 +619,7 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+  #headerLogo {
+    margin-top: -15px !important;
+  }
 }
