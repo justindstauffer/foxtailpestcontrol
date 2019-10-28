@@ -22,7 +22,7 @@ const Header = ({ siteTitle }) => (
       <Topbar />
       <h1
         id='headerLogo'
-        style={{ marginTop: '-75px', marginBottom: '-10px', maxWidth: '500px' }}
+        style={{ marginTop: '-75px', marginBottom: '-10px', maxWidth: '400px' }}
       >
         <Link
           to="/"

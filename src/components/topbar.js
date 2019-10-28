@@ -25,10 +25,10 @@ const Topbar = () => (
                 padding: '.5rem .85rem',
                 borderRadius: '25px'
             }}>
-                <h2 style={{
+                <h3 style={{
                     margin: '0',
                     color: 'white'
-                }}>407-687-2264</h2>
+                }}>407-687-2264</h3>
             </div>
         </div>
     </header>
