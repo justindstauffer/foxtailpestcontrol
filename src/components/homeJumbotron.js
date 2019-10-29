@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from 'reactstrap';
 import Background from '../images/bg-header.jpg'
 
 const Example = (props) => {

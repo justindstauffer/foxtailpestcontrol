@@ -1,6 +1,9 @@
 // import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
+
 
 const Topbar = () => (
     <header
@@ -9,10 +12,14 @@ const Topbar = () => (
             //   borderBottom: '1px solid #E70069'
         }}
     >
+
         <div
             style={{
                 margin: `0 auto`,
-                padding: `0.5rem 0.5rem`,
+                marginTop: '-5px',
+                paddingTop: '0',
+                paddingBottom: '.75rem',
+                paddingRight: '.15rem',
                 display: "flex",
                 justifyContent: "flex-end",
                 // background: 'linear-gradient(to left, white, transparent 25%)',
@@ -22,13 +29,17 @@ const Topbar = () => (
             <div style={{
                 margin: 0,
                 background: '#2cab3b',
-                padding: '.5rem .85rem',
-                borderRadius: '25px'
+                padding: '0.5rem .75rem',
+                borderRadius: '50%'
             }}>
                 <h3 style={{
                     margin: '0',
                     color: 'white'
-                }}>407-687-2264</h3>
+                }}>
+                    
+                    <FontAwesomeIcon icon={faPhone} />
+                    </h3>
+
             </div>
         </div>
     </header>
