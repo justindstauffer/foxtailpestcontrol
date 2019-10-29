@@ -26,19 +26,29 @@ const Topbar = () => (
                 borderRadius: "10px",
             }}
         >
-            <div style={{
-                margin: 0,
-                background: '#2cab3b',
-                padding: '0.5rem .75rem',
-                borderRadius: '50%'
-            }}>
-                <h3 style={{
-                    margin: '0',
-                    color: 'white'
+            <div
+                id="phoneDiv"
+                style={{
+                    margin: 0,
+                    background: '#2cab3b',
+                    padding: '0.5rem .75rem',
+                    borderRadius: '25px'
                 }}>
-                    
-                    <FontAwesomeIcon icon={faPhone} />
-                    </h3>
+                <h3
+                    id="phoneNumber"
+                    style={{
+                        margin: '0',
+                        color: 'white'
+                    }}>
+                    407-687-2264
+                </h3>
+                <h3 id="phoneIcon" style={{
+                    margin: '0',
+                    display: 'none'
+                }}>
+                    <FontAwesomeIcon icon={faPhone} color="white" />
+                </h3>
+
 
             </div>
         </div>

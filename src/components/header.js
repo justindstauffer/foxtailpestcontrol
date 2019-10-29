@@ -8,6 +8,7 @@ const Header = ({ siteTitle }) => (
   <header
     style={{
       background: `#f38c1e`,
+      
     }}
   >
     <div
@@ -15,7 +16,6 @@ const Header = ({ siteTitle }) => (
         margin: `0 auto`,
         background: 'linear-gradient(to right, white 1%, transparent)',
         padding: `1.45rem 1.0875rem`,
-
       }}
     >
       <Topbar />
