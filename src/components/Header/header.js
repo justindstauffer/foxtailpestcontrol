@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => (
     <div
       style={{
         margin: `0 auto`,
-        background: 'linear-gradient(to right, white 1%, transparent)',
+        background: 'linear-gradient(to bottom right, white, transparent)',
         padding: `1.45rem 1.0875rem`,
       }}
     >

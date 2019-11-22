@@ -7,8 +7,6 @@ const Example = (props) => {
             padding: '2rem',
             
         }}>
-
-
             <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" style={{
                 textAlign: 'center',
                 border: '3px solid black',
