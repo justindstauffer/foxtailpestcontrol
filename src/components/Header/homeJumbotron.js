@@ -1,5 +1,5 @@
 import React from 'react';
-import Background from '../images/bg-header.jpg'
+import Background from '../../images/bg-header.jpg'
 
 const Example = (props) => {
     return (

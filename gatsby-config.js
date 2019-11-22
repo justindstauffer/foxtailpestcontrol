@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Foxtail Pest Control`,
-    description: `The best in lawn and shrub care`,
+    description: `Greater Orlando lawn and shrub pest control services. The health and wellness of a lawn is directly related to pest control and fertilization.`,
     author: `@staufferjs`,
   },
   plugins: [

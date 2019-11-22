@@ -1,7 +1,7 @@
 import React from 'react'
-import ServicesCard from '../components/Cards/servicesCard'
-import LawnImage from '../images/lawnandshrub.jpg'
-import ShrubImage from '../images/lawnandshrub2.jpg'
+import ServicesCard from '../Cards/servicesCard'
+import LawnImage from '../../images/lawnandshrub.jpg'
+import ShrubImage from '../../images/lawnandshrub2.jpg'
 const welcomeCards = () => {
     return (
         <div style={{

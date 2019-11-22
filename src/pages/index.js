@@ -2,10 +2,10 @@ import React from "react"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import WelcomeContent from "../components/welcomeContent"
-import Jumbotron from '../components/homeJumbotron'
+import WelcomeContent from "../components/WelcomeContent/welcomeContent"
+import Jumbotron from '../components/Header/homeJumbotron'
 import Greenbar from '../components/greenBar'
-import WelcomeCards from '../components/welcomeCards'
+import WelcomeCards from '../components/WelcomeContent/welcomeCards'
 import RequestQuote from '../components/RequestQuote/requestQuote'
 
 const IndexPage = () => (
