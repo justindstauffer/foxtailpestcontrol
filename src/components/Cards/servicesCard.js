@@ -16,10 +16,10 @@ const ServicesCard = (props) => {
                 maxWidth: '400px',
                 border: '3px solid #2cab3b'
             }}>
-                <CardImg top style={{
+                <CardImg top width='100%' style={{
                     width: '400px',
                     margin: '0'
-                }} src={props.image} alt="Card image cap" />
+                }} src={props.image} alt="Service Card Image" />
                 <CardBody className="text-center" style={{
                     padding: '0',
                     margin: '0'
