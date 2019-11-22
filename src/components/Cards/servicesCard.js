@@ -7,14 +7,13 @@ import {
 const ServicesCard = (props) => {
     return (
         <div style={{
-            border: '5px solid #2cab3b',
-            borderRadius: '10px',
-            marginBottom: '2rem',
-            marginTop: '2rem'
+            margin: '2rem'
+
         }}>
             <Card style={{
                 maxWidth: '400px',
-                border: '3px solid #2cab3b'
+                border: '3px solid black',
+                boxShadow: '0px 0px 0px 5px #2cab3b'
             }}>
                 <CardImg top width='100%' style={{
                     width: '400px',

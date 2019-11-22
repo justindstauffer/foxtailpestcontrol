@@ -10,7 +10,6 @@ const welcomeCards = () => {
             flexWrap: 'wrap',
             justifyContent: 'space-around',
             alignItems: 'center',
-            padding: '16px',
             background: '#f38c1e'
         }}>
             <ServicesCard title='Lawn Care' text='Healthy Lawns' image={LawnImage} />

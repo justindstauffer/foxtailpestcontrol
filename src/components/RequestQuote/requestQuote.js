@@ -4,7 +4,7 @@ const Example = (props) => {
     return (
         <div style={{
             background: '#2cab3b',
-            padding: '1rem',
+            padding: '2rem',
             
         }}>
 
@@ -14,7 +14,8 @@ const Example = (props) => {
                 border: '3px solid black',
                 maxWidth: '450px',
                 margin: 'auto',
-                boxShadow: '0px 0px 0px 5px #f38c1e'
+                boxShadow: '0px 0px 0px 5px #f38c1e',
+                borderRadius: '10px'
             }}>
                 <p hidden>
                     <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
@@ -23,12 +24,12 @@ const Example = (props) => {
                 <h1>Request A Quote</h1>
                 <p>
                     <label>Your Name: <br></br><input type="text" name="name" placeholder="Enter your name here." style={{
-                        width: '300px'
+                        width: '300px',
                     }} /></label>
                 </p>
                 <p>
                     <label>Your Email: <br></br><input type="email" name="email" placeholder="Enter your email here." style={{
-                        width: '300px'
+                        width: '300px',
                     }} /></label>
                 </p>
                 <p>
