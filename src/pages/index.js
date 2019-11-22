@@ -5,7 +5,8 @@ import SEO from "../components/seo"
 import WelcomeContent from "../components/welcomeContent"
 import Jumbotron from '../components/homeJumbotron'
 import Greenbar from '../components/greenBar'
-
+import WelcomeCards from '../components/welcomeCards'
+import RequestQuote from '../components/RequestQuote/requestQuote'
 
 const IndexPage = () => (
   <Layout>
@@ -13,6 +14,8 @@ const IndexPage = () => (
     <Greenbar />
     <Jumbotron />
     <WelcomeContent />
+    <WelcomeCards />
+    <RequestQuote />
   </Layout>
 )
 

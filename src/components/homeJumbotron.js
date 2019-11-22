@@ -15,7 +15,7 @@ const Example = (props) => {
                 justifyContent: 'center',
                 alignItems: 'center'
             }}>
-                <h1 className="display-1 text-center text-light"></h1>
+                <h1 className="display-1 text-center text-light">Pest Control Services</h1>
 
             </div>
         </div>

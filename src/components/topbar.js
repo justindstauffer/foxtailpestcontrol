@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 
 
+
 const Topbar = () => (
     <header
         style={{
@@ -34,20 +35,20 @@ const Topbar = () => (
                     padding: '0.5rem .75rem',
                     borderRadius: '25px'
                 }}>
-                <h3
+                <h5
                     id="phoneNumber"
                     style={{
                         margin: '0',
                         color: 'white'
                     }}>
-                    407-687-2264
-                </h3>
-                <h3 id="phoneIcon" style={{
+                    407-732-4220
+                </h5>
+                <h4 id="phoneIcon" style={{
                     margin: '0',
                     display: 'none'
                 }}>
                     <FontAwesomeIcon icon={faPhone} color="white" />
-                </h3>
+                </h4>
 
 
             </div>
