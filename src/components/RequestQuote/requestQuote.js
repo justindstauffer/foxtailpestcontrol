@@ -4,27 +4,42 @@ const Example = (props) => {
     return (
         <div style={{
             background: '#2cab3b',
-            padding: '1rem'
+            padding: '1rem',
+            
         }}>
 
 
-            <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+            <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" style={{
+                textAlign: 'center',
+                border: '3px solid black',
+                maxWidth: '450px',
+                margin: 'auto',
+                boxShadow: '0px 0px 0px 5px #f38c1e'
+            }}>
                 <p hidden>
                     <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                 </p>
                 <input type="hidden" name="form-name" value="contact" />
                 <h1>Request A Quote</h1>
                 <p>
-                    <label>Your Name: <input type="text" name="name" /></label>
+                    <label>Your Name: <br></br><input type="text" name="name" placeholder="Enter your name here." style={{
+                        width: '300px'
+                    }} /></label>
                 </p>
                 <p>
-                    <label>Your Email: <input type="email" name="email" /></label>
+                    <label>Your Email: <br></br><input type="email" name="email" placeholder="Enter your email here." style={{
+                        width: '300px'
+                    }} /></label>
                 </p>
                 <p>
-                    <label>Message: <textarea name="message"></textarea></label>
+                    <label>Message: <br></br><textarea placeholder="Enter a message here." style={{
+                        width: '300px'
+                    }} name="message"></textarea></label>
                 </p>
                 <p>
-                    <button type="submit">Send</button>
+                    <button className="btn" style={{
+                        background: '#f38c1e'
+                    }} type="submit">Send</button>
                 </p>
             </form>
         </div>
