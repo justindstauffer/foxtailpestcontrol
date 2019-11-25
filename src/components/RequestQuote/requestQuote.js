@@ -23,12 +23,12 @@ const Example = (props) => {
                 <p>
                     <label>Your Name: <br></br><input type="text" name="name" placeholder="Enter your name here." style={{
                         width: '300px',
-                    }} /></label>
+                    }} required /></label>
                 </p>
                 <p>
                     <label>Your Email: <br></br><input type="email" name="email" placeholder="Enter your email here." style={{
                         width: '300px',
-                    }} /></label>
+                    }} required /></label>
                 </p>
                 <p>
                     <label>Message: <br></br><textarea placeholder="Enter a message here." style={{
