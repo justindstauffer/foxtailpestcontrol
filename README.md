@@ -1,3 +1,6 @@
+# Foxtail Pest Control Website
+This is another website for a client built using Gatsby and hosted through Netlify. It is amazingly easy to build, update and maintain a site using Gatsby and Netlify together. 
+-------------------------------------------------------------
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
